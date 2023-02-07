@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.votevellore">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vote_vellore_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VoteVellore">
+        <activity android:name=".ResultsAdmin"></activity>
+        <activity android:name=".Results" />
+        <activity android:name=".VotingPage" />
+        <activity android:name=".ViewParties" />
+        <activity android:name=".AddParty" />
+        <activity android:name=".ViewProfile" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".AddVoter" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".Registration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
